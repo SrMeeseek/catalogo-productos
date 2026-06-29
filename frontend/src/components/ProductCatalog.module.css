@@ -1,0 +1,85 @@
+.searchWrapper {
+  position: relative;
+  max-width: 420px;
+  margin-bottom: 1.5rem;
+}
+
+.search {
+  width: 100%;
+  padding: 0.5rem 2.5rem 0.5rem 0.85rem;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  font-size: 0.95rem;
+  color: var(--text-primary);
+  background: var(--input-bg);
+  outline: none;
+}
+
+.search:focus {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px rgba(54, 108, 237, 0.12);
+}
+
+.clear {
+  position: absolute;
+  right: 0.6rem;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--disabled-color);
+  font-size: 0.85rem;
+  padding: 0;
+  line-height: 1;
+}
+
+.clear:hover {
+  color: var(--text-secondary);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.25rem;
+}
+
+.empty {
+  color: var(--text-secondary);
+  font-size: 1rem;
+}
+
+.pagination {
+  display: flex;
+  gap: 0.4rem;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+}
+
+.pageBtn {
+  padding: 0.4rem 0.85rem;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--btn-bg);
+  color: var(--text-primary);
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s;
+}
+
+.pageBtn:hover:not(:disabled) {
+  background: var(--btn-hover-bg);
+  border-color: var(--accent);
+}
+
+.pageBtn:disabled {
+  color: var(--disabled-color);
+  cursor: default;
+}
+
+.pageBtn.active {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+  font-weight: 600;
+}
