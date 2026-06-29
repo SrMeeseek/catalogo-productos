@@ -1,13 +1,11 @@
 # Catalogo de productos
 
-Solución a la prueba técnica:
-
 - **Parte 1** (Laravel + MySQL): CRUD de marcas y productos con validaciones, carga de imágenes y API REST.
 - **Parte 2** (Next.js): catálogo público que consume la API, con búsqueda en tiempo real y modo oscuro.
 
 ```
-prueba/         # Laravel 12 (PHP 8.2) + MySQL
-prueba-next/    # Next.js 16 (TypeScript, CSS Modules)
+backend/         # Laravel 12 (PHP 8.2) + MySQL
+frontend/    # Next.js 16 (TypeScript, CSS Modules)
 ```
 
 ---
