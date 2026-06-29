@@ -29,7 +29,7 @@ CREATE DATABASE catalogo;
 ```
 
 ```bash
-cd prueba
+cd backend
 composer install
 copy .env.example .env
 # completar los datos de MySQL en el .env
@@ -44,7 +44,7 @@ API disponible en `GET /api/products?q=&page=`
 ### Parte 2 (Next.js) - http://localhost:3000
 
 ```bash
-cd prueba-next
+cd frontend
 npm install
 npm run dev
 ```
