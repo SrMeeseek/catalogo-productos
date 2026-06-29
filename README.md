@@ -1,4 +1,4 @@
-# Prueba técnica - Catalogo de productos
+# Catalogo de productos
 
 Solución a la prueba técnica:
 
